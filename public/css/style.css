@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    margin: 3% 10%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+h1 .li {
+    color: #4e50c8;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+.add-task {
+    display: flex;
+    gap: 15px;
+    padding-top: 50px;
+    padding-bottom: 39px;
+    margin: 0% 16%;
+
+}
+
+.add-task input {
+    flex: 1;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    background: #1e293b;
+    color: white;
+    outline: none;
+
+}
+
+.add-task button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 12px;
+    background: #4e50c8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-task button:hover {
+    background-color: #212356;
+}
+
+.error {
+    color: #ef4444;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-top: 30px;
+    background: #1e293b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 34px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.card h3 .color {
+    color: #4e50c8;
+    font-size: 33px;
+
+}
+
+.card p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tasks h2 {
+    margin-bottom: 35px;
+    margin-top: 20px;
+    display: flex;
+    gap: 18px;
+}
+
+.tasks h2 .table {
+    color: #4e50c8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.task-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px 20px 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 44px;
+}
+footer p .color{
+color: #4e50c8;
+}
