@@ -66,6 +66,7 @@ header p {
 .error {
     color: #ef4444;
     margin-bottom: 20px;
+    margin: 0% 16%;
 }
 
 .stats {
@@ -124,6 +125,21 @@ ul {
     gap: 30px;
 }
 
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.container-btn {
+    display: flex;
+    gap: 6px;
+}
 
 .task-card {
     background: #1e293b;
@@ -135,6 +151,30 @@ ul {
     align-items: center;
 }
 
+
+.complete-btn {
+    background: #413e7f;
+    padding: 5px;
+
+}
+
+.complete-btn .ri {
+    color: aliceblue;
+}
+
+.delet-btn {
+    background: #413e7f;
+    padding: 5px;
+}
+
+.delet-btn .ri {
+    color: aliceblue;
+}
+
+span {
+    font-size: 20px;
+    color: #94a3b8;
+}
 
 footer {
     text-align: center;
